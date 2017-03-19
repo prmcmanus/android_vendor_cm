@@ -211,6 +211,11 @@ PRODUCT_PROPERTY_OVERRIDES += \
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.storage_manager.enabled=true
 
+# OnePlus Camera and Gallery port from siankatabg
+PRODUCT_PACKAGES += \
+    OnePlusCamera \
+    OnePlusGallery
+
 # Telephony
 PRODUCT_PACKAGES += \
     telephony-ext
